@@ -55,6 +55,13 @@ nav ul li a:hover {
     padding: 64px;
 }
 
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
 .about-content img {
     border-radius: 50%;
     width: 150px;
