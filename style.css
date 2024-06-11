@@ -22,7 +22,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: 16px;
+    margin: 0 16px;
 }
 
 nav ul li a {
@@ -35,6 +35,18 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 .section {
     padding: 64px;
     text-align: center;
@@ -45,31 +57,33 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-#home {
-    background-color: #e0f7fa;
-    padding: 64px;
-}
-
 #about {
     background-color: #fce4ec;
-    padding: 64px;
 }
 
 .about-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: left;
-    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.about-text {
-    max-width: 800px;
+.about-text h2, .about-text h3 {
+    margin-top: 24px;
+    margin-bottom: 12px;
 }
-    
+
+.about-text ul {
+    list-style: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.about-text p {
+    margin: 0 0 16px 0;
+}
+
 #projects {
     background-color: #f1f8e9;
-    padding: 64px;
 }
 
 .projects-grid {
@@ -93,5 +107,4 @@ nav ul li a:hover {
 
 #contact {
     background-color: #fff3e0;
-    padding: 64px;
 }
