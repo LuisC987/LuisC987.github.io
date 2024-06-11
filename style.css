@@ -55,6 +55,16 @@ nav ul li a:hover {
     padding: 64px;
 }
 
+.about-content img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.about-text {
+    text-align: left;
+}
+    
 #projects {
     background-color: #f1f8e9;
     padding: 64px;
